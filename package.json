@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@google/genai": "^1.11.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "googleapis": "^105.0.0",
+    "mongodb": "^6.18.0",
+    "openai": "^5.10.1",
+    "uuid": "^11.1.0"
+  }
+}
