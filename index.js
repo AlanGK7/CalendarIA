@@ -26,7 +26,8 @@ app.use(cookieParser());
 
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URI = 'http://localhost:3000/oauth2callback';
+const REDIRECT_URI = 'https://calendar-ia-snowy.vercel.app/oauth2callback';
+// const REDIRECT_URI = 'http://localhost:3000/oauth2callback '; para local
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,

@@ -16,7 +16,8 @@ const __dirname = path.dirname(__filename);
 const SCOPES = ['https://www.googleapis.com/auth/calendar'];
 
 const TOKEN_PATH = path.join(process.cwd(), 'token.json');
-const CREDENTIALS_PATH = path.join(process.cwd(), 'credentials.json');
+const CREDENTIALS_PATH = JSON.parse(process.env.credentials_json);
+// const CREDENTIALS_PATH = path.join(process.cwd(), 'credentials.json'); para local
 
 function cleanJson(respuesta) {
   return respuesta
